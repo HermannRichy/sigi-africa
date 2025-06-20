@@ -1,15 +1,15 @@
-"use client";
+'use client'
 
-import React from "react";
-import Image from "next/image";
-import { motion } from "motion/react";
-import { Star } from "lucide-react";
+import React from 'react'
+import Image from 'next/image'
+import { motion } from 'motion/react'
+import { Star } from 'lucide-react'
 
 interface TestimonialProps {
-    author: string;
-    position: string;
-    content: string;
-    image: string;
+    author: string
+    position: string
+    content: string
+    image: string
 }
 
 const Testimonial: React.FC<TestimonialProps> = ({
@@ -21,8 +21,7 @@ const Testimonial: React.FC<TestimonialProps> = ({
     <motion.div
         className="bg-primaire/10 p-6 rounded-lg border border-primaire/50 backdrop-filter backdrop-blur-sm"
         whileHover={{ scale: 1.02 }}
-        transition={{ duration: 0.3 }}
-    >
+        transition={{ duration: 0.3 }}>
         <div className="flex items-start gap-4 mb-4">
             <Image
                 src={image}
@@ -34,49 +33,49 @@ const Testimonial: React.FC<TestimonialProps> = ({
             <div>
                 <p className="text-white font-medium mb-2">{content}</p>
                 <div className="flex space-x-1 mb-2">
-                    {[1, 2, 3, 4, 5].map((star) => (
+                    {[1, 2, 3, 4, 5].map(star => (
                         <Star key={star} className="text-yellow-500 h-4 w-4" />
                     ))}
                 </div>
                 <p className="text-gray-400">
-                    - {author},{" "}
+                    - {author},{' '}
                     <span className="text-secondaire">{position}</span>
                 </p>
             </div>
         </div>
     </motion.div>
-);
+)
 
 const testimonials = [
     {
-        author: "Kossi Aholou",
-        position: "Directeur, École Primaire de Cotonou",
+        author: 'Kossi Aholou',
+        position: 'Directeur, École Primaire de Cotonou',
         content:
             "SIGI Africa a transformé notre façon de gérer l'immobilier scolaire. La plateforme est intuitive et nous permet de suivre efficacement nos projets de construction et rénovation.",
-        image: "/testimonials/kossi.jpg",
+        image: '/images/kossi.jpg',
     },
     {
-        author: "Afiavi Dossou",
-        position: "Investisseur, Porto-Novo",
+        author: 'Afiavi Dossou',
+        position: 'Investisseur, Porto-Novo',
         content:
             "Grâce à SIGI Africa, j'ai pu investir sereinement dans l'immobilier depuis la France. Le suivi digital et les rapports hebdomadaires m'ont permis de rester informée à chaque étape.",
-        image: "/testimonials/afiavi.jpg",
+        image: '/images/afiavi.jpg',
     },
     {
-        author: "Marcel Houénou",
-        position: "Promoteur Immobilier, Parakou",
+        author: 'Marcel Houénou',
+        position: 'Promoteur Immobilier, Parakou',
         content:
             "La qualité du service et le professionnalisme de l'équipe sont remarquables. SIGI Africa comprend vraiment les enjeux du marché immobilier béninois.",
-        image: "/testimonials/marcel.jpg",
+        image: '/images/marcel.jpg',
     },
     {
-        author: "Bénédicte Agossou",
-        position: "Propriétaire, Abomey-Calavi",
+        author: 'Bénédicte Agossou',
+        position: 'Propriétaire, Abomey-Calavi',
         content:
             "En tant que membre de la diaspora, j'apprécie la transparence et l'efficacité de SIGI Africa. Ils ont géré la construction de ma villa de A à Z avec un excellent suivi.",
-        image: "/testimonials/benedicte.jpg",
+        image: '/images/benedicte.jpg',
     },
-];
+]
 
 const Testimonials = () => {
     return (
@@ -84,7 +83,7 @@ const Testimonials = () => {
             <div className="container mx-auto px-4 md:px-10 lg:px-20 max-w-7xl">
                 <div className="text-center mb-12">
                     <h2 className="text-2xl md:text-5xl font-allenoire mb-4">
-                        Ce que disent{" "}
+                        Ce que disent{' '}
                         <span className="text-secondaire">nos clients</span>
                     </h2>
                     <p className="text-gray-400 max-w-2xl mx-auto md:text-lg">
@@ -97,7 +96,7 @@ const Testimonials = () => {
 
                 <div className="flex items-center gap-2 justify-center mb-12">
                     <div className="flex space-x-1">
-                        {[1, 2, 3, 4, 5].map((star) => (
+                        {[1, 2, 3, 4, 5].map(star => (
                             <Star
                                 key={star}
                                 className="text-yellow-500 h-6 w-6"
@@ -116,7 +115,7 @@ const Testimonials = () => {
                 </div>
             </div>
         </section>
-    );
-};
+    )
+}
 
-export { Testimonials };
+export { Testimonials }

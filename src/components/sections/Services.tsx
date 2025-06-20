@@ -3,16 +3,16 @@ import {
     TabsContent,
     TabsList,
     TabsTrigger,
-} from "@/src/components/ui/tabs";
-import Image from "next/image";
-import Link from "next/link";
-import { Button } from "@/src/components/ui/button";
+} from '@/src/components/ui/tabs'
+import Image from 'next/image'
+import Link from 'next/link'
+import { Button } from '@/src/components/ui/button'
 
 export function Services() {
     return (
         <section className="max-w-7xl px-4 md:px-10 mx-auto mt-20">
             <h2 className="text-2xl text-center md:text-5xl font-allenoire mb-4">
-                Obtenez un service de qualité{" "}
+                Obtenez un service de qualité{' '}
                 <span className="text-secondaire">✱</span>
             </h2>
             <p className="text-center lg:text-lg mb-8">
@@ -23,20 +23,17 @@ export function Services() {
                 <TabsList className="flex flex-wrap justify-center items-center gap-2 mb-24 md:mb-10 mx-auto">
                     <TabsTrigger
                         className="cursor-pointer rounded-md border border-secondaire inline-block w-fit"
-                        value="transaction"
-                    >
+                        value="transaction">
                         Transaction & Conseil
                     </TabsTrigger>
                     <TabsTrigger
                         className="cursor-pointer rounded-md border border-secondaire inline-block w-fit"
-                        value="developpement"
-                    >
+                        value="developpement">
                         Développement & Construction
                     </TabsTrigger>
                     <TabsTrigger
                         className="cursor-pointer rounded-md border border-secondaire inline-block w-fit"
-                        value="gestion"
-                    >
+                        value="gestion">
                         Gestion & Valorisation
                     </TabsTrigger>
                 </TabsList>
@@ -65,7 +62,7 @@ export function Services() {
                                 juste, une visibilité optimale et une
                                 négociation efficace.
                             </p>
-                            <Button asChild variant={"link"}>
+                            <Button asChild variant={'link'}>
                                 <Link className="underline" href="/services">
                                     En savoir plus
                                 </Link>
@@ -94,7 +91,7 @@ export function Services() {
                                 mettons également en place des campagnes de
                                 visibilité ciblées.
                             </p>
-                            <Button asChild variant={"link"}>
+                            <Button asChild variant={'link'}>
                                 <Link className="underline" href="/services">
                                     En savoir plus
                                 </Link>
@@ -125,7 +122,7 @@ export function Services() {
                                 à construire...) selon votre budget, vos
                                 objectifs et votre profil d&apos;investisseur.
                             </p>
-                            <Button asChild variant={"link"}>
+                            <Button asChild variant={'link'}>
                                 <Link className="underline" href="/services">
                                     En savoir plus
                                 </Link>
@@ -154,7 +151,7 @@ export function Services() {
                                 recherche de locataires, gestion locative
                                 incluse si besoin.
                             </p>
-                            <Button asChild variant={"link"}>
+                            <Button asChild variant={'link'}>
                                 <Link className="underline" href="/services">
                                     En savoir plus
                                 </Link>
@@ -187,7 +184,7 @@ export function Services() {
                                 juste, une visibilité optimale et une
                                 négociation efficace.
                             </p>
-                            <Button asChild variant={"link"}>
+                            <Button asChild variant={'link'}>
                                 <Link className="underline" href="/services">
                                     En savoir plus
                                 </Link>
@@ -216,7 +213,7 @@ export function Services() {
                                 Un service essentiel avant toute décision
                                 d&apos;achat, de vente ou d&apos;investissement.
                             </p>
-                            <Button asChild variant={"link"}>
+                            <Button asChild variant={'link'}>
                                 <Link className="underline" href="/services">
                                     En savoir plus
                                 </Link>
@@ -226,5 +223,5 @@ export function Services() {
                 </TabsContent>
             </Tabs>
         </section>
-    );
+    )
 }

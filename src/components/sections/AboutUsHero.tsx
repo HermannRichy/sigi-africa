@@ -1,4 +1,4 @@
-import Image from "next/image";
+import Image from 'next/image'
 
 export function AboutUsHero() {
     return (
@@ -8,7 +8,7 @@ export function AboutUsHero() {
                     {/* Left Content */}
                     <div className="lg:w-1/2">
                         <h1 className="text-3xl md:text-6xl font-allenoire mb-6">
-                            Nous construisons{" "}
+                            Nous construisons{' '}
                             <span className="text-secondaire">
                                 des communautés.
                             </span>
@@ -61,7 +61,7 @@ export function AboutUsHero() {
                         <div className="space-y-4">
                             <div className="relative h-[200px] md:h-[300px] rounded-2xl overflow-hidden">
                                 <Image
-                                    src="/images/about-team-1.jpg"
+                                    src="/images/equipe.jpg"
                                     alt="Notre équipe en réunion"
                                     fill
                                     className="object-cover"
@@ -69,7 +69,7 @@ export function AboutUsHero() {
                             </div>
                             <div className="relative h-[200px] md:h-[250px] rounded-2xl overflow-hidden">
                                 <Image
-                                    src="/images/about-interior-1.jpg"
+                                    src="/images/team2.jpg"
                                     alt="Design intérieur moderne"
                                     fill
                                     className="object-cover"
@@ -87,7 +87,7 @@ export function AboutUsHero() {
                             </div>
                             <div className="relative h-[200px] md:h-[300px] rounded-2xl overflow-hidden">
                                 <Image
-                                    src="/images/about-team-2.jpg"
+                                    src="/images/chantier.jpg"
                                     alt="Équipe sur le chantier"
                                     fill
                                     className="object-cover"
@@ -132,5 +132,5 @@ export function AboutUsHero() {
                 </div>
             </div>
         </section>
-    );
+    )
 }

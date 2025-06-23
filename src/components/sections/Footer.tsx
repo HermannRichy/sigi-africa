@@ -65,7 +65,7 @@ export function Footer() {
                                 className="px-4 py-2 bg-[#1A1A1A] border border-primaire/50 rounded-lg focus:outline-none focus:border-secondaire"
                             />
                             <button className="px-4 py-2 bg-secondaire text-black rounded-lg hover:bg-secondaire/90 transition-colors">
-                                S'abonner
+                                S&apos;abonner
                             </button>
                         </div>
                     </div>

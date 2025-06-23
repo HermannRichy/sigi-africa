@@ -30,7 +30,6 @@ const serviceOptions = [
 ];
 
 export function ContactUsHero() {
-    const router = useRouter();
     const [form, setForm] = useState({
         nom: "",
         telephone: "",
@@ -93,7 +92,7 @@ export function ContactUsHero() {
             } else {
                 setError(data.error || "Une erreur est survenue.");
             }
-        } catch (err) {
+        } catch {
             setError("Erreur réseau ou serveur.");
         } finally {
             setLoading(false);

@@ -42,7 +42,7 @@ export function Cta() {
                         <h2 className="text-3xl md:text-6xl font-allenoire text-black mb-8 max-w-4xl mx-auto">
                             Construisons Ensemble{" "}
                             <span className="inline-block">
-                                Quelque Chose d'Extraordinaire
+                                Quelque Chose d&apos;Extraordinaire
                             </span>
                         </h2>
                         <Button

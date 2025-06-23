@@ -2,6 +2,7 @@ import { Footer } from "@/src/components/sections/Footer";
 import { Navbar } from "@/src/components/sections/Navbar";
 import { Testimonials } from "@/src/components/sections/Testimonials";
 import { Cta } from "@/src/components/sections/Cta";
+import Image from "next/image";
 
 export default function ServicesPage() {
     const newsItems = [
@@ -62,7 +63,7 @@ export default function ServicesPage() {
                     <div className="space-y-16">
                         <article className="flex flex-col md:flex-row md:items-center lg:w-4/5 mx-auto gap-4 lg:gap-8">
                             <div className="w-full md:w-2/5 lg:w-1/2">
-                                <img
+                                <Image
                                     src="/images/service1.jfif"
                                     alt="Service1"
                                     className="object-cover rounded-2xl w-full h-80 mb-4 md:mb-0"
@@ -74,17 +75,17 @@ export default function ServicesPage() {
                                     immobiliers
                                 </h2>
                                 <p className="lg:text-md mb-2">
-                                    Nous vous guidons à chaque étape de l'achat
-                                    ou de la vente de votre bien immobilier.
-                                    Notre équipe vous accompagne dans la
-                                    recherche, l'évaluation, la négociation et
-                                    la finalisation de la transaction, tout en
-                                    assurant la sécurité juridique et
-                                    administrative de votre projet.
+                                    Nous vous guidons à chaque étape de
+                                    l&apos;achat ou de la vente de votre bien
+                                    immobilier. Notre équipe vous accompagne
+                                    dans la recherche, l&apos;évaluation, la
+                                    négociation et la finalisation de la
+                                    transaction, tout en assurant la sécurité
+                                    juridique et administrative de votre projet.
                                 </p>
                                 <p className="lg:text-md mb-2">
                                     Nous mettons à votre disposition notre
-                                    réseau d'experts et notre connaissance
+                                    réseau d&apos;experts et notre connaissance
                                     approfondie du marché local pour garantir
                                     une expérience fluide et transparente, que
                                     vous soyez primo-accédant, investisseur ou
@@ -94,7 +95,7 @@ export default function ServicesPage() {
                         </article>
                         <article className="flex flex-col md:flex-row md:items-center lg:w-4/5 mx-auto gap-4 lg:gap-8">
                             <div className="w-full md:w-2/5 lg:w-1/2">
-                                <img
+                                <Image
                                     src="/images/service2.jfif"
                                     alt="Service2"
                                     className="object-cover rounded-2xl w-full h-80 mb-4 md:mb-0"
@@ -123,7 +124,7 @@ export default function ServicesPage() {
                         </article>
                         <article className="flex flex-col md:flex-row md:items-center lg:w-4/5 mx-auto gap-4 lg:gap-8">
                             <div className="w-full md:w-2/5 lg:w-1/2">
-                                <img
+                                <Image
                                     src="/images/service3.jfif"
                                     alt="Service3"
                                     className="object-cover rounded-2xl w-full h-80 mb-4 md:mb-0"
@@ -132,20 +133,20 @@ export default function ServicesPage() {
                             <div className="w-full md:w-3/5 lg:w-1/2">
                                 <h2 className="text-xl md:text-2xl font-allenoire mb-4">
                                     Recherche de Biens Rentables & Opportunités
-                                    d'Investissement
+                                    d&apos;Investissement
                                 </h2>
                                 <p className="lg:text-md mb-2">
-                                    Vous souhaitez investir dans l'immobilier ?
-                                    Nous identifions pour vous les meilleures
-                                    opportunités selon votre budget et vos
-                                    objectifs : immeubles, appartements,
-                                    terrains à bâtir, etc. Nous analysons le
-                                    potentiel de rentabilité et vous conseillons
-                                    sur les démarches à suivre.
+                                    Vous souhaitez investir dans
+                                    l&apos;immobilier ? Nous identifions pour
+                                    vous les meilleures opportunités selon votre
+                                    budget et vos objectifs : immeubles,
+                                    appartements, terrains à bâtir, etc. Nous
+                                    analysons le potentiel de rentabilité et
+                                    vous conseillons sur les démarches à suivre.
                                 </p>
                                 <p className="lg:text-md mb-2">
                                     Profitez de notre expertise pour sécuriser
-                                    votre investissement et bénéficier d'un
+                                    votre investissement et bénéficier d&apos;un
                                     accompagnement sur-mesure, de la sélection
                                     du bien à la gestion locative.
                                 </p>
@@ -153,7 +154,7 @@ export default function ServicesPage() {
                         </article>
                         <article className="flex flex-col md:flex-row md:items-center lg:w-4/5 mx-auto gap-4 lg:gap-8">
                             <div className="w-full md:w-2/5 lg:w-1/2">
-                                <img
+                                <Image
                                     src="/images/service4.jfif"
                                     alt="Service4"
                                     className="object-cover rounded-2xl w-full h-80 mb-4 md:mb-0"
@@ -171,15 +172,15 @@ export default function ServicesPage() {
                                     locative si besoin.
                                 </p>
                                 <p className="lg:text-md mb-2">
-                                    Notre équipe s'occupe de tout, vous
+                                    Notre équipe s&apos;occupe de tout, vous
                                     garantissant une rentabilité optimale et une
-                                    tranquillité d'esprit totale.
+                                    tranquillité d&apos;esprit totale.
                                 </p>
                             </div>
                         </article>
                         <article className="flex flex-col md:flex-row md:items-center lg:w-4/5 mx-auto gap-4 lg:gap-8">
                             <div className="w-full md:w-2/5 lg:w-1/2">
-                                <img
+                                <Image
                                     src="/images/service5.jfif"
                                     alt="Service5"
                                     className="object-cover rounded-2xl w-full h-80 mb-4 md:mb-0"
@@ -192,15 +193,15 @@ export default function ServicesPage() {
                                 <p className="lg:text-md mb-2">
                                     Nos experts réalisent une estimation précise
                                     de la valeur vénale ou locative de vos
-                                    biens, en s'appuyant sur des outils
-                                    d'analyse comparative du marché et des
+                                    biens, en s&apos;appuyant sur des outils
+                                    d&apos;analyse comparative du marché et des
                                     données concrètes.
                                 </p>
                                 <p className="lg:text-md mb-2">
                                     Ce service est essentiel avant toute
-                                    décision d'achat, de vente ou
-                                    d'investissement, pour vous permettre de
-                                    prendre les meilleures décisions en toute
+                                    décision d&apos;achat, de vente ou
+                                    d&apos;investissement, pour vous permettre
+                                    de prendre les meilleures décisions en toute
                                     confiance.
                                 </p>
                             </div>
@@ -223,7 +224,7 @@ export default function ServicesPage() {
                                 className="bg-[#1A1A1A] rounded-lg overflow-hidden h-full flex flex-col"
                             >
                                 <div className="relative h-[200px] md:h-[180px]">
-                                    <img
+                                    <Image
                                         src={item.image}
                                         alt={item.title}
                                         className="object-cover w-full h-full"

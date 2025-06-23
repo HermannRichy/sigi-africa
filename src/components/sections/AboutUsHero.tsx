@@ -14,13 +14,14 @@ export function AboutUsHero() {
                             </span>
                         </h1>
                         <p className="text-gray-400 md:text-lg mb-8 max-w-2xl">
-                            Avec un engagement envers la qualité, l'innovation
-                            et la satisfaction client, nous nous sommes imposés
-                            comme un leader incontournable dans le secteur de la
-                            construction et de l'immobilier au Bénin. Notre
-                            passion est de construire des maisons et des
-                            communautés exceptionnelles qui dépassent les
-                            attentes de nos clients.
+                            Avec un engagement envers la qualité,
+                            l&apos;innovation et la satisfaction client, nous
+                            nous sommes imposés comme un leader incontournable
+                            dans le secteur de la construction et de
+                            l&apos;immobilier au Bénin. Notre passion est de
+                            construire des maisons et des communautés
+                            exceptionnelles qui dépassent les attentes de nos
+                            clients.
                         </p>
                         <div className="grid grid-cols-2 gap-6 md:gap-12">
                             <div>
@@ -28,7 +29,7 @@ export function AboutUsHero() {
                                     10+
                                 </h3>
                                 <p className="text-gray-400">
-                                    Années d'expérience
+                                    Années d&apos;expérience
                                 </p>
                             </div>
                             <div>
@@ -106,7 +107,7 @@ export function AboutUsHero() {
                         <p className="text-gray-400">
                             Notre expertise technique et notre attention aux
                             détails garantissent des constructions de haute
-                            qualité qui résistent à l'épreuve du temps.
+                            qualité qui résistent à l&apos;épreuve du temps.
                         </p>
                     </div>
                     <div className="bg-[#1A1A1A] p-8 rounded-2xl">
@@ -116,7 +117,7 @@ export function AboutUsHero() {
                         <p className="text-gray-400">
                             Nous intégrons des solutions innovantes et durables
                             dans chaque projet pour créer des espaces
-                            respectueux de l'environnement.
+                            respectueux de l&apos;environnement.
                         </p>
                     </div>
                     <div className="bg-[#1A1A1A] p-8 rounded-2xl">

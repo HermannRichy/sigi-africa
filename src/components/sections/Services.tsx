@@ -116,7 +116,7 @@ export function Services() {
                         <div className="w-full md:w-3/5 lg:w-1/2">
                             <h2 className="text-xl md:text-2xl font-allenoire mb-4">
                                 Recherche de Biens Rentables & Opportunités
-                                d'Investissement
+                                d&apos;Investissement
                             </h2>
                             <p className="lg:text-md mb-4">
                                 Vous cherchez à investir intelligemment ? Nous

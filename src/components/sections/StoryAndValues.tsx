@@ -40,10 +40,10 @@ export function StoryAndValues() {
                             <p className="text-gray-400 md:text-lg">
                                 SIGI Africa a été fondée en 2015 avec une vision
                                 claire : révolutionner le secteur immobilier au
-                                Bénin. Notre fondateur, passionné d'immobilier
-                                et d'innovation, a voulu créer une entreprise
-                                qui combinerait expertise locale et standards
-                                internationaux.
+                                Bénin. Notre fondateur, passionné
+                                d&apos;immobilier et d&apos;innovation, a voulu
+                                créer une entreprise qui combinerait expertise
+                                locale et standards internationaux.
                             </p>
 
                             <div className="bg-[#1A1A1A] p-6 rounded-2xl">
@@ -58,14 +58,15 @@ export function StoryAndValues() {
                                     </div>
                                     <div>
                                         <blockquote className="text-white mb-2">
-                                            "Chez SIGI Africa, nous croyons que
-                                            chaque projet immobilier devrait
-                                            être un chef-d'œuvre - le reflet des
-                                            rêves et des aspirations de nos
-                                            clients. C'est pourquoi nous nous
-                                            engageons à repousser les limites de
-                                            ce qui est possible dans la
-                                            construction et l'immobilier."
+                                            &quot;Chez SIGI Africa, nous croyons
+                                            que chaque projet immobilier devrait
+                                            être un chef-d&apos;œuvre - le
+                                            reflet des rêves et des aspirations
+                                            de nos clients. C&apos;est pourquoi
+                                            nous nous engageons à repousser les
+                                            limites de ce qui est possible dans
+                                            la construction et
+                                            l&apos;immobilier.&quot;
                                         </blockquote>
                                         <p className="text-gray-400">
                                             - Fondateur et PDG, SIGI Africa
@@ -75,13 +76,14 @@ export function StoryAndValues() {
                             </div>
 
                             <p className="text-gray-400 md:text-lg">
-                                Depuis sa création, SIGI Africa s'est développée
-                                pour devenir un acteur majeur du secteur,
-                                réalisant plus de 200 projets et servant des
-                                milliers de clients satisfaits. Aujourd'hui,
-                                l'entreprise emploie une équipe de plus de 50
-                                professionnels, chacun apportant un ensemble
-                                unique de compétences et d'expertise.
+                                Depuis sa création, SIGI Africa s&apos;est
+                                développée pour devenir un acteur majeur du
+                                secteur, réalisant plus de 200 projets et
+                                servant des milliers de clients satisfaits.
+                                Aujourd&apos;hui, l&apos;entreprise emploie une
+                                équipe de plus de 50 professionnels, chacun
+                                apportant un ensemble unique de compétences et
+                                d&apos;expertise.
                             </p>
                         </div>
                     </div>

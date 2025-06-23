@@ -56,8 +56,9 @@ export function Hero() {
                             <Star className="text-yellow-500 h-4 w-4" />
                         </div>
                         <p className="text-xs text-white">
-                            "Un suivi de votre projet depuis votre position
-                            grâce à des rapports hebdomadaires et digitaux."
+                            &quot;Un suivi de votre projet depuis votre position
+                            grâce à des rapports hebdomadaires et
+                            digitaux.&quot;
                         </p>
                     </div>
                 </aside>
@@ -81,8 +82,8 @@ export function Hero() {
                             <Star className="text-yellow-500 h-4 w-4" />
                         </div>
                         <p className="text-xs text-white">
-                            "Une équipe professionnelle et à l&apos;écoute. Ils
-                            ont su répondre à toutes mes attentes."
+                            &quot;Une équipe professionnelle et à l&apos;écoute.
+                            Ils ont su répondre à toutes mes attentes.&quot;
                         </p>
                     </div>
                 </aside>

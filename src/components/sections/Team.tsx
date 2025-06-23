@@ -1,64 +1,64 @@
-'use client'
+"use client";
 
-import React, { useState, useRef } from 'react'
-import Image from 'next/image'
-import { Swiper, SwiperSlide } from 'swiper/react'
-import { Navigation } from 'swiper/modules'
-import { ArrowLeft, ArrowRight } from 'lucide-react'
-import 'swiper/css'
-import type { Swiper as SwiperType } from 'swiper'
+import React, { useState, useRef } from "react";
+import Image from "next/image";
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Navigation } from "swiper/modules";
+import { ArrowLeft, ArrowRight } from "lucide-react";
+import "swiper/css";
+import type { Swiper as SwiperType } from "swiper";
 
 interface TeamMember {
-    name: string
-    role: string
-    image: string
-    description: string
+    name: string;
+    role: string;
+    image: string;
+    description: string;
 }
 
 const teamMembers: TeamMember[] = [
     {
-        name: 'Jean Dupont',
-        role: 'Fondateur et PDG',
-        image: '/images/jean.jpg',
+        name: "Jean Dupont",
+        role: "Fondateur et PDG",
+        image: "/images/jean.jpg",
         description:
             "Avec plus de 20 ans d'expérience dans l'immobilier et la construction au Bénin, Jean a bâti une réputation pour son engagement inébranlable envers la qualité et l'innovation.",
     },
     {
-        name: 'Marie Kouassi',
-        role: 'Secrétaire Générale',
-        image: '/images/secretary.jpg',
+        name: "Marie Kouassi",
+        role: "Secrétaire Générale",
+        image: "/images/secretary.jpg",
         description:
             "Pilier de l'organisation depuis sa création, Marie supervise l'ensemble des opérations administratives et assure une gestion efficace de l'entreprise.",
     },
     {
-        name: 'Ahmed Diallo',
-        role: 'Directeur Technique',
-        image: '/images/technical.jpg',
+        name: "Ahmed Diallo",
+        role: "Directeur Technique",
+        image: "/images/technical.jpg",
         description:
             "Expert en construction avec une formation d'ingénieur, Ahmed dirige notre équipe technique et garantit l'excellence dans tous nos projets de construction.",
     },
     {
-        name: 'Sophie Mensah',
-        role: 'Directrice Commerciale',
-        image: '/images/sophie.jpg',
+        name: "Sophie Mensah",
+        role: "Directrice Commerciale",
+        image: "/images/sophie.jpg",
         description:
             "Avec son expertise en immobilier et sa connaissance approfondie du marché béninois, Sophie guide nos clients vers les meilleures opportunités d'investissement.",
     },
     {
-        name: 'Pascal Koffi',
-        role: 'Directeur Financier',
-        image: '/images/pascal.jpg',
+        name: "Pascal Koffi",
+        role: "Directeur Financier",
+        image: "/images/pascal.jpg",
         description:
             "Fort de 15 ans d'expérience en finance, Pascal assure la solidité financière de l'entreprise et optimise nos investissements pour une croissance durable.",
     },
     {
-        name: 'Amina Sow',
-        role: 'Directrice Marketing',
-        image: '/images/amina.jpg',
+        name: "Amina Sow",
+        role: "Directrice Marketing",
+        image: "/images/amina.jpg",
         description:
             "Créative et stratège, Amina développe notre présence sur le marché et renforce la position de SIGI Africa comme leader de l'immobilier au Bénin.",
     },
-]
+];
 
 const TeamMemberCard = ({ name, role, image, description }: TeamMember) => (
     <article className="bg-[#1A1A1A] rounded-lg overflow-hidden h-full p-6">
@@ -77,12 +77,12 @@ const TeamMemberCard = ({ name, role, image, description }: TeamMember) => (
             <p className="text-gray-400">{description}</p>
         </div>
     </article>
-)
+);
 
 export function Team() {
-    const [currentSlide, setCurrentSlide] = useState(1)
-    const totalSlides = teamMembers.length
-    const swiperRef = useRef<SwiperType>()
+    const [currentSlide, setCurrentSlide] = useState(1);
+    const totalSlides = teamMembers.length;
+    const swiperRef = useRef<SwiperType>(null);
 
     return (
         <section className="py-20">
@@ -96,10 +96,10 @@ export function Team() {
                             </h2>
                         </div>
                         <p className="text-gray-400 max-w-2xl md:text-lg">
-                            Avec une diversité de compétences et d'expertise,
-                            notre équipe est dédiée à offrir des résultats
-                            exceptionnels et à dépasser les attentes de nos
-                            clients.
+                            Avec une diversité de compétences et
+                            d&apos;expertise, notre équipe est dédiée à offrir
+                            des résultats exceptionnels et à dépasser les
+                            attentes de nos clients.
                         </p>
                     </div>
                 </div>
@@ -110,8 +110,8 @@ export function Team() {
                         spaceBetween={24}
                         slidesPerView={1}
                         className="h-full"
-                        onBeforeInit={swiper => {
-                            swiperRef.current = swiper
+                        onBeforeInit={(swiper) => {
+                            swiperRef.current = swiper;
                         }}
                         breakpoints={{
                             640: {
@@ -121,9 +121,10 @@ export function Team() {
                                 slidesPerView: 3,
                             },
                         }}
-                        onSlideChange={swiper =>
+                        onSlideChange={(swiper) =>
                             setCurrentSlide(swiper.activeIndex + 1)
-                        }>
+                        }
+                    >
                         {teamMembers.map((member, index) => (
                             <SwiperSlide key={index}>
                                 <TeamMemberCard {...member} />
@@ -133,18 +134,20 @@ export function Team() {
 
                     <div className="flex justify-between items-center mt-8">
                         <span className="text-gray-400 text-lg font-medium">
-                            {currentSlide.toString().padStart(2, '0')}/
-                            {totalSlides.toString().padStart(2, '0')}
+                            {currentSlide.toString().padStart(2, "0")}/
+                            {totalSlides.toString().padStart(2, "0")}
                         </span>
                         <div className="flex gap-1">
                             <button
                                 onClick={() => swiperRef.current?.slidePrev()}
-                                className="group p-2 hover:bg-primaire/10 active:bg-primaire/10 cursor-pointer rounded-full transition-colors">
+                                className="group p-2 hover:bg-primaire/10 active:bg-primaire/10 cursor-pointer rounded-full transition-colors"
+                            >
                                 <ArrowLeft className="w-6 h-6 text-gray-400 group-hover:text-white" />
                             </button>
                             <button
                                 onClick={() => swiperRef.current?.slideNext()}
-                                className="group p-2 hover:bg-primaire/10 active:bg-primaire/10 cursor-pointer rounded-full transition-colors">
+                                className="group p-2 hover:bg-primaire/10 active:bg-primaire/10 cursor-pointer rounded-full transition-colors"
+                            >
                                 <ArrowRight className="w-6 h-6 text-gray-400 group-hover:text-white" />
                             </button>
                         </div>
@@ -152,5 +155,5 @@ export function Team() {
                 </div>
             </div>
         </section>
-    )
+    );
 }

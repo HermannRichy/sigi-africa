@@ -3,7 +3,7 @@ import { Navbar } from "@/src/components/sections/Navbar";
 import { Testimonials } from "@/src/components/sections/Testimonials";
 import { Cta } from "@/src/components/sections/Cta";
 
-export default function NotFoundPage() {
+export default function ServicesPage() {
     const newsItems = [
         {
             title: "5 façons d'augmenter la valeur de votre bien",

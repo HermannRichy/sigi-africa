@@ -50,7 +50,7 @@ export function StoryAndValues() {
                                 <div className="flex items-start gap-4">
                                     <div className="relative w-16 h-16 rounded-full overflow-hidden flex-shrink-0">
                                         <Image
-                                            src="/images/founder.jpg"
+                                            src="/images/jean.jpg"
                                             alt="Fondateur de SIGI Africa"
                                             fill
                                             className="object-cover"

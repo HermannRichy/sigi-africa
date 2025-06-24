@@ -64,8 +64,10 @@ export default function ServicesPage() {
                         <article className="flex flex-col md:flex-row md:items-center lg:w-4/5 mx-auto gap-4 lg:gap-8">
                             <div className="w-full md:w-2/5 lg:w-1/2">
                                 <Image
-                                    src="/images/service1.jfif"
+                                    src="/images/service1.jpg"
                                     alt="Service1"
+                                    width={500}
+                                    height={500}
                                     className="object-cover rounded-2xl w-full h-80 mb-4 md:mb-0"
                                 />
                             </div>
@@ -96,8 +98,10 @@ export default function ServicesPage() {
                         <article className="flex flex-col md:flex-row md:items-center lg:w-4/5 mx-auto gap-4 lg:gap-8">
                             <div className="w-full md:w-2/5 lg:w-1/2">
                                 <Image
-                                    src="/images/service2.jfif"
+                                    src="/images/service2.jpg"
                                     alt="Service2"
+                                    width={500}
+                                    height={500}
                                     className="object-cover rounded-2xl w-full h-80 mb-4 md:mb-0"
                                 />
                             </div>
@@ -125,8 +129,10 @@ export default function ServicesPage() {
                         <article className="flex flex-col md:flex-row md:items-center lg:w-4/5 mx-auto gap-4 lg:gap-8">
                             <div className="w-full md:w-2/5 lg:w-1/2">
                                 <Image
-                                    src="/images/service3.jfif"
+                                    src="/images/service3.jpg"
                                     alt="Service3"
+                                    width={500}
+                                    height={500}
                                     className="object-cover rounded-2xl w-full h-80 mb-4 md:mb-0"
                                 />
                             </div>
@@ -155,8 +161,10 @@ export default function ServicesPage() {
                         <article className="flex flex-col md:flex-row md:items-center lg:w-4/5 mx-auto gap-4 lg:gap-8">
                             <div className="w-full md:w-2/5 lg:w-1/2">
                                 <Image
-                                    src="/images/service4.jfif"
+                                    src="/images/service4.jpg"
                                     alt="Service4"
+                                    width={500}
+                                    height={500}
                                     className="object-cover rounded-2xl w-full h-80 mb-4 md:mb-0"
                                 />
                             </div>
@@ -181,8 +189,10 @@ export default function ServicesPage() {
                         <article className="flex flex-col md:flex-row md:items-center lg:w-4/5 mx-auto gap-4 lg:gap-8">
                             <div className="w-full md:w-2/5 lg:w-1/2">
                                 <Image
-                                    src="/images/service5.jfif"
+                                    src="/images/service5.jpg"
                                     alt="Service5"
+                                    width={500}
+                                    height={500}
                                     className="object-cover rounded-2xl w-full h-80 mb-4 md:mb-0"
                                 />
                             </div>
@@ -227,6 +237,8 @@ export default function ServicesPage() {
                                     <Image
                                         src={item.image}
                                         alt={item.title}
+                                        width={500}
+                                        height={500}
                                         className="object-cover w-full h-full"
                                     />
                                 </div>

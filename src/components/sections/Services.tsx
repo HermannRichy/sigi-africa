@@ -44,7 +44,7 @@ export function Services() {
                     <article className="flex flex-col md:flex-row md:items-center lg:w-4/5 mx-auto mb-10 gap-4 lg:gap-8">
                         <div className="w-full md:w-2/5 lg:w-1/2">
                             <Image
-                                src="/images/service1.jfif"
+                                src="/images/service1.jpg"
                                 alt="Service1"
                                 width={300}
                                 height={200}
@@ -75,7 +75,7 @@ export function Services() {
                     <article className="flex flex-col md:flex-row md:items-center lg:w-4/5 mx-auto mb-10 gap-4 lg:gap-8">
                         <div className="w-full md:w-2/5 lg:w-1/2">
                             <Image
-                                src="/images/service2.jfif"
+                                src="/images/service2.jpg"
                                 alt="Service2"
                                 width={300}
                                 height={200}
@@ -106,7 +106,7 @@ export function Services() {
                     <article className="flex flex-col md:flex-row md:items-center lg:w-4/5 mx-auto mb-10 gap-4 lg:gap-8">
                         <div className="w-full md:w-2/5 lg:w-1/2">
                             <Image
-                                src="/images/service3.jfif"
+                                src="/images/service3.jpg"
                                 alt="Service3"
                                 width={300}
                                 height={200}
@@ -135,7 +135,7 @@ export function Services() {
                     <article className="flex flex-col md:flex-row md:items-center lg:w-4/5 mx-auto mb-10 gap-4 lg:gap-8">
                         <div className="w-full md:w-2/5 lg:w-1/2">
                             <Image
-                                src="/images/service4.jfif"
+                                src="/images/service4.jpg"
                                 alt="Service4"
                                 width={300}
                                 height={200}
@@ -166,7 +166,7 @@ export function Services() {
                     <article className="flex flex-col md:flex-row md:items-center lg:w-4/5 mx-auto mb-10 gap-4 lg:gap-8">
                         <div className="w-full md:w-2/5 lg:w-1/2">
                             <Image
-                                src="/images/service5.jfif"
+                                src="/images/service5.jpg"
                                 alt="Service5"
                                 width={300}
                                 height={200}
@@ -197,8 +197,8 @@ export function Services() {
                     <article className="flex flex-col md:flex-row md:items-center lg:w-4/5 mx-auto mb-10 gap-4 lg:gap-8">
                         <div className="w-full md:w-2/5 lg:w-1/2">
                             <Image
-                                src="/images/service5.jfif"
-                                alt="Service5"
+                                src="/images/about-img-1.jpg"
+                                alt="Service1"
                                 width={300}
                                 height={200}
                                 className="object-cover rounded-2xl w-full h-80 mb-4 md:mb-0"

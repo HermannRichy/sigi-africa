@@ -80,7 +80,7 @@ export function AboutUsHero() {
                         <div className="space-y-4 mt-8">
                             <div className="relative h-[200px] md:h-[250px] rounded-2xl overflow-hidden">
                                 <Image
-                                    src="/images/pm.jfif"
+                                    src="/images/pm.jpg"
                                     alt="Projet immobilier"
                                     fill
                                     className="object-cover"

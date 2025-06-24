@@ -30,9 +30,9 @@ export function Navbar() {
                         <DrawerTrigger>
                             <AlignRight />
                         </DrawerTrigger>
-                        <DrawerContent>
+                        <DrawerContent className="bg-black">
                             <DrawerHeader>
-                                <DrawerTitle className="flex flex-col items-center gap-4">
+                                <DrawerTitle className="flex flex-col items-center gap-4 bg-black">
                                     <Link href="/">Accueil</Link>
                                     <Link href="/about-us">A propos</Link>
                                     <Link href="/services">Nos services</Link>

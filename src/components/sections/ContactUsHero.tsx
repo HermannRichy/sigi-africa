@@ -133,6 +133,18 @@ export function ContactUsHero() {
                                     className="mb-4 hover:text-secondaire"
                                 >
                                     <Link
+                                        href="tel:+2290150525215"
+                                        className="text-lg"
+                                    >
+                                        +229 01 50 52 52 15
+                                    </Link>
+                                </Button><br/>
+                                <Button
+                                    asChild
+                                    variant="outline"
+                                    className="mb-4 hover:text-secondaire"
+                                >
+                                    <Link
                                         href="tel:+2290197583006"
                                         className="text-lg"
                                     >
@@ -145,10 +157,10 @@ export function ContactUsHero() {
                                     className="mb-4 hover:text-secondaire"
                                 >
                                     <Link
-                                        href="tel:+2290163212116"
+                                        href="tel:+2290197583006"
                                         className="text-lg"
                                     >
-                                        +229 01 63 21 21 16
+                                        +229 01 97 58 30 06
                                     </Link>
                                 </Button>
                             </div>
